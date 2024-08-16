@@ -1,0 +1,325 @@
+
+/* Cố định  */
+h1 strong {
+  font-size: 70px !important;
+} 
+/* Cố định  */
+
+
+
+
+.avatar{
+ width: 250px;
+}
+
+/* Định dạng cho logo */
+.logo {
+  width: 250px; /* Chỉnh chiều rộng theo ý muốn */
+  height: auto; /* Tự động điều chỉnh chiều cao để duy trì tỉ lệ */
+}
+
+/* Định dạng cho các mục trong navbar */
+.navbar-nav .nav-link {
+  font-size: 20px; /* Tăng kích thước chữ */
+  padding: 10px 15px; /* Điều chỉnh khoảng cách giữa các chữ */
+  font-weight: bold; /* Làm đậm chữ */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Thêm hiệu ứng chuyển tiếp */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px; /* Khoảng cách giữa các mục */
+}
+
+/* Hiệu ứng khi hover vào mục navbar */
+.navbar-nav .nav-link:hover {
+  background-color: #23588d; /* Màu nền khi hover */
+  border-radius: 5px; /* Bo góc cho các nút */
+  color: #007bff; /* Màu chữ khi hover */
+  transform: scale(1.1); /* Phóng to mục menu khi di chuột vào */
+}
+
+/* Định dạng cho mục navbar đang được chọn */
+.navbar-nav .nav-link.active {
+  color: #007bff; /* Màu chữ của mục đang được chọn */
+  background-color: #16497d; /* Màu nền của mục đang được chọn */
+  border-radius: 5px; /* Bo góc cho mục đang được chọn */
+  transition: transform 0.3s ease;
+}
+
+/* Đổi màu chữ của các mục trong navbar */
+.navbar .nav-link {
+  color: #e6edf6; /* Màu chữ của menu */
+}
+
+/* Thay đổi màu chữ khi di chuột vào mục menu */
+.navbar .nav-link:hover {
+  color: #ffdd57; /* Màu chữ khi di chuột vào */
+}
+
+/* Thay đổi màu biểu tượng khi di chuột vào */
+.header-social-links a:hover i {
+  color: #ffdd57; /* Màu biểu tượng khi di chuột vào */
+}
+
+/* Đổi màu biểu tượng trên navbar */
+.header-social-links a i {
+  color: #f5f6f9; /* Màu biểu tượng mặc định */
+}
+
+/* Màu nền và màu chữ cho menu khi thu nhỏ */
+.navbar-toggler {
+  color: #f1f1f3; /* Màu chữ của nút thu nhỏ */
+  background-color: #343a40; /* Màu nền của nút thu nhỏ */
+}
+
+/* Thay đổi màu nền của các phần tử khác */
+.bg-light {
+  background-color: #89b027 !important;
+}
+
+.header {
+  background: #79c31f;
+  height: 60px;
+  z-index: 9999;
+}
+
+.my-nav {
+  background: rgb(36, 129, 169);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #4176a4; /* Màu nền */
+  color: #212529;
+}
+
+/* Định dạng cho ảnh */
+#img2 {
+  width: 250px;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dee2e6;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Định dạng cho lưới thông tin cá nhân */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Cân xứng nhãn và nội dung */
+  gap: 1rem;
+  align-items: center;
+  justify-content: center; /* Căn giữa grid */
+}
+
+/* Định dạng cho các nhãn và thông tin */
+.grid-item.label {
+  font-size: 22px; /* Kích thước chữ cho các nhãn */
+  font-weight: bold;
+  text-align: left; /* Căn phải nhãn */
+  padding-right: 20px; /* Tạo khoảng cách giữa nhãn và nội dung */
+}
+
+.grid-item.info {
+  font-size: 25px; /* Kích thước chữ cho thông tin */
+  text-align: left; /* Căn trái nội dung */
+}
+
+/* Định dạng cho text trong trang */
+.text {
+  font-size: 100px;
+}
+
+/* Định dạng cho container */
+.container {
+  display: flex;
+  justify-content: center; /* Căn giữa nội dung */
+  padding: 25px; /* Tạo khoảng cách với viền ngoài */
+}
+
+.grid-item.label {
+  font-size: 25px; /* Kích thước chữ cho các nhãn */
+}
+
+.grid-item.info {
+  font-size: 23px; /* Kích thước chữ cho thông tin */
+}
+
+/* Định dạng footer */
+/* Footer Styles */
+#footer {
+  padding: 40px 0;
+  background-color: #343a40; /* Màu nền đậm */
+  color: #f8f9fa; /* Màu chữ sáng */
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+#footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer .copyright p {
+  margin: 0;
+  font-size: 16px;
+  color: #f8f9fa;
+  margin-bottom: 10px;
+}
+
+#footer .header-social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#footer .header-social-links a {
+  color: #f8f9fa;
+  font-size: 24px;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+#footer .header-social-links a:hover {
+  color: #007bff; /* Màu khi hover */
+}
+
+#footer .credits {
+  font-size: 14px;
+  color: #ced4da;
+  margin-top: 20px;
+}
+
+#footer .credits a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#footer .credits a:hover {
+  text-decoration: underline;
+}
+
+#footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #007bff;
+  margin-bottom: 20px;
+}
+
+#footer {
+  background-color: #212121; /* Giữ nền đen */
+  color: #fff; /* Màu chữ trắng */
+  padding: 10px 0; /* Giảm padding trên và dưới */
+  text-align: center;
+  font-size: 15px; /* Giảm kích thước chữ nếu cần */
+}
+
+#footer .header-social-links {
+  margin-bottom: 5px; /* Giảm khoảng cách dưới của phần liên kết mạng xã hội */
+}
+
+#footer .copyright,
+#footer .credits {
+  margin-bottom: 0; /* Xóa khoảng cách dưới cùng */
+}
+
+
+/* TRANG ABOUT  */
+.resume {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 3px solid rgb(36, 129, 169)  ;
+  position: relative;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: white;
+  border: 2px solid rgb(36, 129, 169) ;
+}
+
+.resume-body-1-subtitle p {
+  font-size: 25px;
+}
+.resume-body-2-subtitle p {
+  font-size: 20px;
+}
+
+.resume-body-2-subtitle li,
+.resume-body-1-subtitle strong {
+  font-size: 19px;  
+}
+
+.about-body-title h1,
+.about-body-title h2,
+.about-body-title p {
+  text-align: center;
+}
+
+.about-body-3 img {
+  max-width: 200px;
+  border-radius: 100%;
+  align-items: center !important;
+  align-content: center !important;
+}
+.carousel-item p,
+.carousel-item h3,
+.carousel-item .img {
+  text-align: center;
+  align-items: center;
+} 
+.about-body-2-star {
+  display: flex;
+  justify-content: center;
+}
+/* TRANG ABOUT  */
+
+/* TRANG CONTACT  */
+.btn-get-started {
+  color: black;
+  background: rgb(36, 129, 169);
+  /* font-family: var(--heading-font); */
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px !important;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+.btn-get-started:hover {
+  color: rgb(36, 129, 169) !important ;
+  background: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0, 5s linear;
+  margin-top: 10px;
+}
+/* TRANG CONTACT  */
